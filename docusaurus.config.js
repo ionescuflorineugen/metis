@@ -61,18 +61,29 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            type: 'dropdown',
+            label: 'Docs Categories',
+            position: 'left',
+            items: [
+              {
+                label: 'Development',
+                to: 'docs/development/',
+              },
+              {
+                label: 'Digital',
+                to: 'docs/digital/',
+              },
+              {
+                label: 'Industries',
+                to: 'docs/industries/',
+              },
+            ],
+          },
+          { to: '/snippets', label: 'Snippets', position: 'left' },
+          { to: '/components', label: 'Components', position: 'left' },
+          { to: '/athena', label: 'Athena', position: 'left' },
+          { to: '/blog', label: 'Blog', position: 'left' },
         ],
       },
       footer: {
