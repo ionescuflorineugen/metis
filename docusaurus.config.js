@@ -1,7 +1,5 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -19,9 +17,6 @@ const config = {
   organizationName: 'ionescuflorineugen', // Usually your GitHub org/user name.
   projectName: 'metis', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -34,15 +29,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -80,9 +69,9 @@ const config = {
               },
             ],
           },
-          { to: '/snippets', label: 'Snippets', position: 'left' },
-          { to: '/components', label: 'Components', position: 'left' },
-          { to: '/athena', label: 'Athena', position: 'left' },
+          // { to: '/snippets', label: 'Snippets', position: 'left' },
+          // { to: '/components', label: 'Components', position: 'left' },
+          // { to: '/athena', label: 'Athena', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
         ],
       },
@@ -132,8 +121,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Metis.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
       },
     }),
 };
