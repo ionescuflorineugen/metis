@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Metis',
   tagline: 'Knowledge is power',
-  url: 'https://ionescuflorin.github.io',
+  url: 'https://github.com',
   baseUrl: '/metis/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
