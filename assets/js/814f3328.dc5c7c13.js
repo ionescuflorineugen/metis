@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmetis=self.webpackChunkmetis||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Blog Post","permalink":"/metis/blog/mdx-blog-post"}]}')}}]);
