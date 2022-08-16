@@ -69,10 +69,31 @@ const config = {
               },
             ],
           },
-          // { to: '/snippets', label: 'Snippets', position: 'left' },
-          // { to: '/components', label: 'Components', position: 'left' },
-          // { to: '/athena', label: 'Athena', position: 'left' },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'dropdown',
+            label: 'Snippets',
+            position: 'left',
+            to: 'atomic/snippets',
+            items: [
+              {
+                label: 'HTML',
+                to: 'atomic/snippets/html',
+              },
+              {
+                label: 'CSS',
+                to: 'atomic/snippets/css',
+              },
+              {
+                label: 'JAVASCRIPT',
+                to: 'atomic/snippets/javascript',
+              },
+            ],
+          },
+          { to: 'atomic/components', label: 'Components(draft)', position: 'left' },
+          { to: 'atomic/templates', label: 'Templates(draft)', position: 'left' },
+          { to: 'atomic/athena', label: 'Athena(draft)', position: 'left' },
+          { to: '/projects', label: 'PROJECTS', position: 'right' },
+          { to: '/blog', label: 'BLOG', position: 'right' },
         ],
       },
       footer: {

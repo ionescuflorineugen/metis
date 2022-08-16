@@ -10,7 +10,6 @@ sidebar_position: 1
 
 ### Freelance
 
-- [Athena](docs/industries/freelance/athena/)
 - [Interviews](docs/industries/freelance/interviews/)
 - [Clients](docs/industries/freelance/clients/)
 

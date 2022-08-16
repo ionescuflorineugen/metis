@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-export default function Components() {
+export default function Snippets() {
   return (
     <Layout title="Hello" description="Hello React Page">
       <div
