@@ -43,5 +43,5 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### Features
 - [ x ] Write the press release
-- [ - ] Update the website
+- [ x ] Update the website
 - [ - ] Contact the media
