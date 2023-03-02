@@ -1,0 +1,97 @@
+---
+sidebar_position: 1
+---
+
+# Content Blocks
+
+## #MDX
+
+---
+#### #Headings
+
+# Level 1 title 
+- `use it as the main title of the page`
+## Level 2 title
+- `this one will create a main bookmark`
+### Level 3 title
+- `this one will create a sub bookmark, the nested parent being level 2`
+#### Level 4 title
+- `good for final or footer text or third subtitle`
+
+---
+#### #Referencing docs
+1. I am referencing a [document](#).
+2. Reference to another [document in a subfolder](#).
+3. external link  **[docusaurus.new](https://www.google.com/)**
+---
+#### #Download docs
+1. [Download this docx using Markdown](`#`)
+---
+#### #Content blocks
+:::danger DEFINITION
+> Here we can have a complete definition or even multiple definitions
+
+- Emphasize phrase: **Lorem ipsum**  
+- Emphasize word: _Lorem_ 
+- Emphasize code: `functionx()`
+- Reference [this api](#).
+
+> Used for stacking informations
+
+Lists:
+1. Item1
+    * Subitem1
+        - subsubitem1
+
+:::
+
+:::caution to METIS
+> Here we have the consensed informations that it will go to Athena
+
+:::
+
+:::info DETAILS
+> Here you add all the info you have
+
+:::
+
+:::tip SUMMARY
+> Informations that it shrinked
+> Here we can add also a Resources area
+> Resources
+* R1
+* R2
+
+:::
+
+:::note CODE EXAMPLE
+> Here you add code examples
+
+```jsx live
+function Clock(props) {
+  const [date, setDate] = useState(new Date());
+  useEffect(() => {
+    const timerID = setInterval(() => tick(), 1000);
+
+    return function cleanup() {
+      clearInterval(timerID);
+    };
+  });
+
+  function tick() {
+    setDate(new Date());
+  }
+
+  return (
+    <div>
+      <h2>It is {date.toLocaleTimeString()}.</h2>
+    </div>
+  );
+}
+```
+
+:::
+---
+
+## #JSX
+- JSX highlight: `<highlight color="#25c2a0">Docusaurus green</highlight>`

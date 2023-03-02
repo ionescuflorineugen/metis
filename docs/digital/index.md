@@ -1,21 +1,6 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# DIGITAL
+# Digital
 
-### UI/Ux
-
-### Seo
-
-### Graphic Design
-
-### Marketing
-
-### Copywritting
-
-### Sales
-
-### Business
-
----

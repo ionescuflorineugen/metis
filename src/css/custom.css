@@ -33,3 +33,18 @@
 .footer--dark {
   background-color: #242526;
 }
+
+
+.aa-DetachedSearchButton, .aa-Form {
+  border: 0.1px solid #c4bd2b !important;
+}
+.aa-DetachedFormContainer {
+  background-color: #000000 !important;
+}
+.aa-DetachedSearchButton > * {
+  padding: 6px;
+  color: #c4bd2b !important;
+}
+.aa-SubmitIcon, .aa-Input::placeholder {
+  color: #c4bd2b !important;
+}

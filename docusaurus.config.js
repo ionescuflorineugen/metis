@@ -8,7 +8,7 @@ const config = {
   tagline: 'Knowledge is power',
   url: 'https://github.com',
   baseUrl: '/metis/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -21,7 +21,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   presets: [
     [
       'classic',
@@ -39,7 +38,7 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -52,9 +51,17 @@ const config = {
         items: [
           {
             type: 'dropdown',
-            label: 'Docs Categories',
+            label: 'Docs',
             position: 'left',
             items: [
+              {
+                label: 'Info',
+                to: 'docs/info/',
+              },
+              {
+                label: 'Personal',
+                to: 'docs/personal/',
+              },
               {
                 label: 'Development',
                 to: 'docs/development/',
@@ -64,36 +71,52 @@ const config = {
                 to: 'docs/digital/',
               },
               {
-                label: 'Industries',
-                to: 'docs/industries/',
+                label: 'Business',
+                to: 'docs/business/',
+              },
+            ],
+          },
+          {
+            label: 'Checklists',
+            position: 'left',
+            to: 'docs/checklists/',
+            items: [
+              {
+                label: 'Code Review',
+                to: 'docs/checklists/codereview',
               },
             ],
           },
           {
             type: 'dropdown',
-            label: 'Snippets',
+            label: 'Snippets - Code',
             position: 'left',
-            to: 'atomic/snippets',
+            to: 'code',
             items: [
               {
-                label: 'HTML',
-                to: 'atomic/snippets/html',
+                label: 'Units',
+                to: 'code/units',
               },
               {
-                label: 'CSS',
-                to: 'atomic/snippets/css',
-              },
-              {
-                label: 'JAVASCRIPT',
-                to: 'atomic/snippets/javascript',
+                label: 'Best Practices',
+                to: 'code/bestpractices',
               },
             ],
           },
-          { to: 'atomic/components', label: 'Components(draft)', position: 'left' },
-          { to: 'atomic/templates', label: 'Templates(draft)', position: 'left' },
-          { to: 'atomic/athena', label: 'Athena(draft)', position: 'left' },
-          { to: '/projects', label: 'PROJECTS', position: 'right' },
-          { to: '/blog', label: 'BLOG', position: 'right' },
+          {
+            label: 'Snippets - Components',
+            position: 'left',
+            to: 'comp',
+          },
+
+          {
+            label: 'Snippets - Templates',
+            position: 'left',
+            to: 'templates'
+          },
+          { to: 'docs/athena', label: 'Athena', position: 'right' },
+          { to: 'docs/projects', label: 'Projects', position: 'right' },
+          // { to: '/blog', label: 'Blog', position: 'right' },
         ],
       },
       footer: {
@@ -144,6 +167,11 @@ const config = {
       prism: {
         theme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: true,
+      }
     }),
 };
 

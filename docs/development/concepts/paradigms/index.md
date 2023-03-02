@@ -1,7 +1,7 @@
 ---
 id: paradigms
 title: Paradigms
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 # Paradigms

@@ -1,7 +1,7 @@
 ---
 id: design-patters
 title: Design Patterns
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Design Patterns
