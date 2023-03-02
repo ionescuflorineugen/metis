@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmetis=self.webpackChunkmetis||[]).push([[2714],{2548:s=>{s.exports=JSON.parse('[{"label":"docusaurus","permalink":"/metis/blog/tags/docusaurus","count":1}]')}}]);
