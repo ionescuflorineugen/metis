@@ -42,6 +42,9 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 `
 
 ### Features
-- [ x ] Write the press release
-- [ x ] Update the website
-- [ - ] Contact the media
+<ol>
+    <li><input type="checkbox"> First task</li>
+    <li><input type="checkbox"> Second task</li>
+</ol>
+
+- [] Test
