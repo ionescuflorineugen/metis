@@ -22,5 +22,5 @@
 3. After running the commands above, you'll see something like this: `ssh-rsa AAAAB...92989tQ== me@example.com`.
 4. Copy paste that to the key on your new ssh key form then give it whatever title you like.
 ---
-### 🪵 Resources
+## 🪵 Resources
 - https://help.github.com/articles/connecting-to-github-with-ssh/ 

@@ -95,6 +95,6 @@ git config user.name "Rahul Pandey"
 git config --list (see user data)
 ```
 ---
-### 🪵 Resources
+## 🪵 Resources
 - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 - https://gist.github.com/aprilmintacpineda/f101bf5fd34f1e6664497cf4b9b9345f#generate-ssh-keys
