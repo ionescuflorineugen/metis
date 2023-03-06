@@ -16,7 +16,7 @@
    - `id_rsa` 
      - *The id_rsa is the private key, **don't want to give this key to anyone**.*
 ---
-## ✅ Adding ssh keys to github accounts (or whatever you use)
+## ✅ Adding ssh keys to github accounts
 1. Go to your github account then go to `Settings -> SSH and GPG keys`. Click on `New SSH key` button.
 2. Go to your terminal again and run this command: `cat ~/.ssh/<yourfilename>.pub` replacing `<yourfilename>` with `id_rsa.pub`.
 3. After running the commands above, you'll see something like this: `ssh-rsa AAAAB...92989tQ== me@example.com`.
