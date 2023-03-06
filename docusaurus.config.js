@@ -85,6 +85,10 @@ const config = {
                 label: 'Code Review',
                 to: 'docs/checklists/codereview',
               },
+              {
+                label: 'SSH',
+                to: 'docs/checklists/ssh',
+              },
             ],
           },
           {
