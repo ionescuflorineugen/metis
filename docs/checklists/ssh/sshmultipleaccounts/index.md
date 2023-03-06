@@ -18,7 +18,7 @@
 6. Then rename those ssh keys with with whatever file name you gave it, in this case mine is `id_rsa_personal` and `id_rsa_personal.pub`.
 7. Now try to generate another one by following the same procedure again. I named my second keys `id_rsa_work` and `id_rsa_work.pub`.
 --- 
-## ✅ Adding ssh keys to github accounts (or whatever you use)
+## ✅ Adding ssh keys to github accounts
 1. Go to your github account then go to `Settings -> SSH and GPG keys`. Click on `New SSH key` button.
 2. Go to your terminal again and run this command: `cat ~/.ssh/<yourfilename>.pub` replacing `<yourfilename>` with `id_rsa.pub`.
 3. After running the commands above, you'll see something like this: `ssh-rsa AAAAB...92989tQ== me@example.com`
