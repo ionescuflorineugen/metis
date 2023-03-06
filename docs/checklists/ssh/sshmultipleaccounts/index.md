@@ -91,6 +91,8 @@ git config user.name "Rahul Pandey"
      
 git config user.email "my-personal-email@gmail.com"
 git config user.name "Rahul Pandey"
+
+git config --list (see user data)
 ```
 ---
 ### 🪵 Resources
